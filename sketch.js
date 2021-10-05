@@ -24,9 +24,9 @@ function setup() {
   blowerMouth = new BlowerMouth(width / 2 + 70, height / 2 + 20, 100, 90);
   
   btn2 = createImg('click.png');
-btn2.position(20,30);
-btn2.size(50,50);
-blow();
+  btn2.position(20,30);
+  btn2.size(50,50);
+  btn2.mouseClicked(blow);
 }
  
 function draw() {
